@@ -41,7 +41,7 @@ jobs:
       - name: SAM Deploy
         run: |
           sam deploy \
-            --stack-name fastapi-ml-stack \
+            --stack-name fastapi-ml-app \
             --resolve-s3 \
             --resolve-image-repos \
             --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM \
