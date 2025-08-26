@@ -43,5 +43,6 @@ jobs:
           sam deploy \
             --stack-name fastapi-ml-stack \
             --resolve-s3 \
+            --resolve-image-repos \
             --capabilities CAPABILITY_IAM CAPABILITY_NAMED_IAM \
             --no-confirm-changeset
